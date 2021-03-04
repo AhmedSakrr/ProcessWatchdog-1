@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "flZ2yKWUzxS+yCCmHz/SV/4nIPPTQsSFHmO4j8PNPD2TF6gwM3bq8KdQy/0pAlSf+bR4+ACNRGG2c7NWywDNnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marco.maschauer\\Documents\\Visual Studio 2019\\Projects\\PBWatchdog\\PBWatchdog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.7\\microsoft.netcore.app.runtime.win-x86.3.1.7.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.7\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.7.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.7\\microsoft.aspnetcore.app.runtime.win-x86.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

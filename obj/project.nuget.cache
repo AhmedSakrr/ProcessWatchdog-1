@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8P7eRzYODXQcoxzZKTZKh6uL0HMPqnSKlsWrA7eXM6uK3ykpPrdvNC6Zy7nQr97a/xIkqLFx652BN7LpbH5A0w==",
+  "success": true,
+  "projectFilePath": "E:\\Work\\PBWatchdog\\Projekt\\Aktueller Stand\\PBWatchdog\\PBWatchdog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\marco.maschauer\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

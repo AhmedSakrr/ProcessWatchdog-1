@@ -1,0 +1,128 @@
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.exe
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.deps.json
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.json
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.dev.json
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.pdb
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csprojAssemblyReference.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\App.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.lref
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.baml
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.g.resources
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfoInputs.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfo.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CoreCompileInputs.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.pdb
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\App.baml
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\NotifyIconWpf.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CopyComplete
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\Notification.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\Notification.baml
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.Properties.Resources.resources
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.GenerateResource.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll.config
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\Settings.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\Settings.baml
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\bin\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.ResolveComReference.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.exe
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll.config
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.deps.json
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.json
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.dev.json
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.pdb
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\NotifyIconWpf.dll
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csprojAssemblyReference.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.ResolveComReference.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.g.cs
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Notification.g.cs
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Settings.g.cs
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\App.g.cs
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.lref
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\App.baml
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.baml
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Notification.baml
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Settings.baml
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.g.resources
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.Properties.Resources.resources
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.GenerateResource.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfoInputs.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfo.cs
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CoreCompileInputs.cache
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CopyComplete
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.dll
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.pdb
+E:\Work\PBWatchdog\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.exe
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll.config
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.deps.json
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.json
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.dev.json
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.pdb
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\NotifyIconWpf.dll
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csprojAssemblyReference.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.ResolveComReference.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.g.cs
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Notification.g.cs
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Settings.g.cs
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\App.g.cs
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.lref
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\App.baml
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.baml
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Notification.baml
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Settings.baml
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.g.resources
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.Properties.Resources.resources
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.GenerateResource.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfoInputs.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfo.cs
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CoreCompileInputs.cache
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CopyComplete
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.dll
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.pdb
+E:\Work\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.exe
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll.config
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.deps.json
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.json
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.runtimeconfig.dev.json
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.dll
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\PBWatchdog.pdb
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\NotifyIconWpf.dll
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csprojAssemblyReference.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.ResolveComReference.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.g.cs
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Notification.g.cs
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Settings.g.cs
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\App.g.cs
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog_MarkupCompile.lref
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\App.baml
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\MainWindow.baml
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Notification.baml
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\Settings.baml
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.g.resources
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.Properties.Resources.resources
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.GenerateResource.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.AssemblyInfo.cs
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.csproj.CopyComplete
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.dll
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.pdb
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Release\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache

@@ -1,0 +1,2 @@
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\publish\PBWatchdog\PBWatchdog.pdb
+C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\bin\publish\PBWatchdog\PBWatchdog.exe

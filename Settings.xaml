@@ -1,0 +1,210 @@
+﻿<Window x:Class="PBWatchdog.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Einstellungen"
+        ResizeMode="NoResize"
+        Height="190"
+        Width="480"
+        WindowStyle="None"
+        ShowInTaskbar="True"
+        Visibility="Visible"
+        WindowStartupLocation="CenterScreen"
+        >
+    <!--Weißen Frame entfernen-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0"
+                      CornerRadius="0"
+                      CaptionHeight="0" 
+        />
+    </WindowChrome.WindowChrome>
+    <Border BorderThickness="1" BorderBrush="Black">
+        <StackPanel Background="#424242">
+            <!--Title Bar-->
+            <Grid Background="#c62828" Height="25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock 
+                Grid.Column="0" 
+                MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" 
+                FontSize="13" 
+                Foreground="#e0e0e0"
+                Text="Benutzerdefinierte Einstellungen"
+                FontWeight="Bold"
+                Margin="5, 0, 0, 0"
+                VerticalAlignment="Center"
+            />
+                <Button 
+                x:Name="btnExit"
+                Grid.Column="1"
+                Width="25px"
+                Click="BtnExit_Click"
+                VerticalAlignment="Stretch"
+                FontSize="12" 
+                FontWeight="Bold"
+                BorderThickness="0"
+                Background="Transparent"
+                Content="X"
+            />
+            </Grid>
+            <Label 
+                BorderThickness="1" 
+                BorderBrush="Black" 
+                Height="1" 
+            />
+            <!--Optionen Text-->
+            <Grid Margin=" 0, 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.02*"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label 
+                    BorderThickness="1" 
+                    BorderBrush="White" 
+                    Height="1" 
+                    Margin="2 2 2 0" 
+                />
+                <TextBlock 
+                    Text="Optionen"
+                    Foreground="White"
+                    FontSize="13"
+                    Grid.Column="1"
+                />
+                <Label 
+                    BorderThickness="1" 
+                    BorderBrush="White" 
+                    Height="1" 
+                    Grid.Column="2" 
+                    Margin="2 2 10 0" 
+                />
+            </Grid>
+            <!--Checkboxes-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox 
+                x:Name="cBoxAutostart"
+                Content="Autostart"
+                ToolTip="Schreibt den PBWatchdog in den Autostart"
+                Foreground="White"
+                Margin="5, 0"
+                Grid.Column="0"
+            />
+                <CheckBox 
+                x:Name="cBoxMonitor"
+                Content="Monitor beim Start ausblenden"
+                ToolTip="Der Monitor wird beim Start nicht angezeigt. Tray Icon und Benachrichtigungen funktionieren trotzdem"
+                Foreground="White"
+                Margin="5, 0"
+                Grid.Column="1"
+            />
+                <CheckBox 
+                x:Name="cBoxShowNameInMonitor"
+                Content="Name im Monitor anzeigen"
+                ToolTip="Der Benutzername wird im Monitor angezeigt wenn die Postbox geöffnet ist"
+                Foreground="White"
+                Margin="5, 0"
+                Grid.Column="2"
+            />
+            </Grid>
+            <!--Benachrichtigungen Text-->
+            <Grid Margin=" 0, 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.02*"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label 
+                    BorderThickness="1" 
+                    BorderBrush="White" 
+                    Height="1" 
+                    Margin="2 2 2 0" 
+                />
+                <TextBlock 
+                    Text="Benachrichtigungen"
+                    Foreground="White"
+                    FontSize="13"
+                    Grid.Column="1"
+                />
+                <Label 
+                    BorderThickness="1" 
+                    BorderBrush="White" 
+                    Height="1" 
+                    Grid.Column="2" 
+                    Margin="2 2 10 0" 
+                />
+            </Grid>
+            <!--Benachrichtigungs Zeiten-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock 
+                    Text="Benachrichtigungs Zeiten"
+                    Foreground="White" 
+                    Margin="5, 0" 
+                    Grid.Column="0"
+                />
+                <TextBox
+                    x:Name="txbTimeStart"
+                    Width="37" 
+                    Grid.Column="1"
+                    Text=""
+                    MaxLength="5"
+                />
+                <TextBlock 
+                    Text="bis" 
+                    Foreground="White" 
+                    Margin="5, 0" 
+                    Grid.Column="2"
+                />
+                <TextBox 
+                    x:Name="txbTimeStop"
+                    Text="" 
+                    Width="37" 
+                    Grid.Column="3"
+                    MaxLength="5"
+                />
+                <TextBlock 
+                    Text="Uhr" 
+                    Foreground="White" 
+                    Margin="5, 0" 
+                    Grid.Column="4"
+                />
+                <CheckBox 
+                x:Name="cBoxWeekendNotification"
+                Content="Wochenende"
+                ToolTip="Benachrichtigungen werden auch am Wochenende angezeigt"
+                Foreground="White"
+                Margin="7 0 0 0"
+                Grid.Column="5"
+            />
+            </Grid>
+            <!--Speichern Button-->
+            <Grid>
+                <Button
+                    x:Name="btnSave"
+                    Content="Speichern"
+                    Width="80"
+                    Margin="30"
+                    Click="BtnSave_Click"
+                    Foreground="Black"
+                    BorderThickness="0"
+                />
+            </Grid>
+        </StackPanel>
+    </Border>
+</Window>
