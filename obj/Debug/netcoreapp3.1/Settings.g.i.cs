@@ -116,7 +116,7 @@ namespace PBWatchdog {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PBWatchdog;V1.0.0.0;component/settings.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PBWatchdog;component/settings.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Settings.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
