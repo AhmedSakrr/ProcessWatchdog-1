@@ -22,7 +22,7 @@ namespace PBWatchdog
                 }
                 catch (Exception ex)
                 {
-                    using EventLog eventLog = new EventLog("Application")
+                    using EventLog eventLog = new("Application")
                     {
                         Source = "Application"
                     };
@@ -41,7 +41,7 @@ namespace PBWatchdog
                 }
                 catch (Exception ex)
                 {
-                    using EventLog eventLog = new EventLog("Application")
+                    using EventLog eventLog = new("Application")
                     {
                         Source = "Application"
                     };
@@ -58,7 +58,7 @@ namespace PBWatchdog
             }
             catch (Exception e)
             {
-                using EventLog eventLog = new EventLog("Application")
+                using EventLog eventLog = new("Application")
                 {
                     Source = "Application"
                 };

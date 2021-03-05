@@ -13,7 +13,7 @@ namespace PBWatchdog
         {
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = mainFileName
                 };
@@ -31,7 +31,7 @@ namespace PBWatchdog
         {
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = mainFileName
                 };
@@ -50,7 +50,7 @@ namespace PBWatchdog
             bool kill = false;
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = mainFileName
                 };
@@ -76,7 +76,7 @@ namespace PBWatchdog
             int logLevel = 0;
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = mainFileName
                 };
@@ -94,7 +94,7 @@ namespace PBWatchdog
         {
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = FileHandler.userconfigfile
                 };
@@ -122,7 +122,7 @@ namespace PBWatchdog
         {
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = FileHandler.userconfigfile
                 };
@@ -141,7 +141,7 @@ namespace PBWatchdog
             bool value = false;
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = FileHandler.userconfigfile
                 };
@@ -167,7 +167,7 @@ namespace PBWatchdog
             string value = "";
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = FileHandler.userconfigfile
                 };
@@ -186,7 +186,7 @@ namespace PBWatchdog
             bool check = false;
             try
             {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap //Sets specific File as Config File
+                ExeConfigurationFileMap configMap = new()
                 {
                     ExeConfigFilename = FileHandler.userconfigfile
                 };

@@ -197,7 +197,7 @@ namespace PBWatchdog
         #endregion
 
         #region Notification
-        private void ShowCustomNotification()
+        private static void ShowCustomNotification()
         {
             Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
             if (!ConfigFiles.GetUserValueBool("NotificationWeekend") && ShowNotificationOnWeekend() && ShowNotificationAtThisTime())
@@ -208,13 +208,13 @@ namespace PBWatchdog
             {
                 if (ShowNotificationAtThisTime())
                 {
-                    Notification notification = new Notification();
+                    Notification notification = new();
                     notification.Show();
                     Logger.Log("show notification");
                 }
             }
         }
-        private bool ShowNotificationOnWeekend()
+        private static bool ShowNotificationOnWeekend()
         {
             Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
             if ((Convert.ToString(DateTime.Today.DayOfWeek) == "Saturday" || Convert.ToString(DateTime.Today.DayOfWeek) == "Sunday"))
@@ -226,14 +226,14 @@ namespace PBWatchdog
                 return false;
             }
         }
-        private bool ShowNotificationAtThisTime()
+        private static bool ShowNotificationAtThisTime()
         {
             Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
             string[] startTime = ConfigFiles.GetUserValue("NotificationStartTime").Split(":");
             string[] stopTime = ConfigFiles.GetUserValue("NotificationStopTime").Split(":");
             TimeSpan currentTime = DateTime.Now.TimeOfDay;
-            TimeSpan start = new TimeSpan(Convert.ToInt32(startTime[0]), Convert.ToInt32(startTime[1]), 0);
-            TimeSpan end = new TimeSpan(Convert.ToInt32(stopTime[0]), Convert.ToInt32(stopTime[1]), 0);
+            TimeSpan start = new(Convert.ToInt32(startTime[0]), Convert.ToInt32(startTime[1]), 0);
+            TimeSpan end = new(Convert.ToInt32(stopTime[0]), Convert.ToInt32(stopTime[1]), 0);
             if ((currentTime > start) && (currentTime < end))
             {
                 Logger.Log("time is within notification time");
