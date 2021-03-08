@@ -1,0 +1,3 @@
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PBWatchdog.pdb
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PBWatchdog.dll.config
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PBWatchdog.exe
