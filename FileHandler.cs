@@ -78,7 +78,7 @@ namespace PBWatchdog
                 string shortcutLocation = Path.Combine(autostartpath, shortcutName + ".lnk");
                 if (!System.IO.File.Exists(shortcutLocation))
                 {
-                    WshShell shell = new();
+                    WshShell shell = new WshShell();
                     IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutLocation);
                     shortcut.WorkingDirectory = Environment.CurrentDirectory; //The directory where the file you want to start is in 
                     shortcut.TargetPath = targetFileLocation; // The path of the file that will launch when the shortcut is run

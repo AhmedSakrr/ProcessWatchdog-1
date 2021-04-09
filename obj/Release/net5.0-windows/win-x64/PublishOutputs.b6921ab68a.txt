@@ -1,3 +1,12 @@
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PBWatchdog.pdb
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PBWatchdog.dll.config
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\clrcompression.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\clrjit.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\coreclr.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\mscordaccore.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\D3DCompiler_47_cor3.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PenImc_cor3.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PresentationNative_cor3.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\vcruntime140_cor3.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\wpfgfx_cor3.dll
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\publish\PBWatchdog\PBWatchdog.exe
