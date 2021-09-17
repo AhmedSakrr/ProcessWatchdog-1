@@ -103,6 +103,15 @@ namespace PBWatchdog
             {
                 ConfigFiles.SetUserValue("NotificationWeekend", "false");
             }
+            //No notifications
+            if (cBoxDeactivateNotification.IsChecked ?? true)
+            {
+                ConfigFiles.SetUserValue("NoNotification", "true");
+            }
+            else
+            {
+                ConfigFiles.SetUserValue("NoNotification", "false");
+            }
             //To see if everything is valid
             if (close)
             {
@@ -151,6 +160,14 @@ namespace PBWatchdog
             else
             {
                 cBoxWeekendNotification.IsChecked = false;
+            }
+            if (ConfigFiles.GetUserValueBool("NoNotification"))
+            {
+                cBoxDeactivateNotification.IsChecked = true;
+            }
+            else
+            {
+                cBoxDeactivateNotification.IsChecked = false;
             }
         }
         private static bool TimeValidation(string text)

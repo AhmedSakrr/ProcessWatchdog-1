@@ -5,8 +5,9 @@ namespace PBWatchdog
 {
     public class ConfigFiles
     {
-        private static string windowTitle, processName, processPath, processArgument; //name of WindowTitle and Process you want to check
+        private static string windowTitle, processName, processPath, processArgument; 
         private static readonly string mainFileName = "app.config";
+        private static bool invertColors;
         private static readonly int userConfigKeyCount = 9; //how many keys are in the UserConfig to check if everything is there
         private static int time = 30, logLevel = 0;
 
@@ -25,7 +26,7 @@ namespace PBWatchdog
                 logLevel = Convert.ToInt32(config.AppSettings.Settings["LogLevel"].Value);
                 processPath = config.AppSettings.Settings["ProcessPath"].Value;
                 processArgument = config.AppSettings.Settings["ProcessArgument"].Value;
-
+                invertColors = Convert.ToBoolean(config.AppSettings.Settings["InvertColors"].Value);
             }
             catch (Exception ex)
             {
@@ -56,6 +57,10 @@ namespace PBWatchdog
         public static string GetProcessArgument()
         {
             return processArgument;
+        }
+        public static bool GetInvertColors()
+        {
+            return invertColors;
         }
         public static bool GetKill()
         {

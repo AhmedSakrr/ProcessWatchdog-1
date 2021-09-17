@@ -48,9 +48,17 @@ namespace PBWatchdog
             bool pbio = ProcessChecker.IsProcessRunning(processName, windowTitle);
             if (pbio)
             {
-                btn_PB.Background = Brushes.Green;
+                if (ConfigFiles.GetInvertColors())
+                {
+                    btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
+                    tb.Icon = Properties.Resources.pbizicon;
+                }
+                else
+                {
+                    btn_PB.Background = Brushes.Green;
+                    tb.Icon = Properties.Resources.pbioicon;
+                }
                 btn_PB.Content = ConfigFiles.GetWindowTitle();
-                tb.Icon = Properties.Resources.pbioicon;
                 remindTimer.Stop();
                 remind = false;
                 notify = true;
@@ -59,10 +67,18 @@ namespace PBWatchdog
             }
             else
             {
-                btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
+                if (ConfigFiles.GetInvertColors())
+                {
+                    btn_PB.Background = Brushes.Green;
+                    tb.Icon = Properties.Resources.pbioicon;
+                }
+                else
+                {
+                    btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
+                    tb.Icon = Properties.Resources.pbizicon;
+                }
                 btn_PB.Content = ConfigFiles.GetWindowTitle();
                 Logger.Log("PBIZ");
-                tb.Icon = Properties.Resources.pbizicon;
                 remind = true;
                 if (notify)
                 {
@@ -225,7 +241,7 @@ namespace PBWatchdog
             }
             else
             {
-                if (ShowNotificationAtThisTime())
+                if (ShowNotificationAtThisTime() && !ShowNotificationInGeneral())
                 {
                     Notification notification = new Notification();
                     notification.Show();
@@ -263,6 +279,11 @@ namespace PBWatchdog
                 Logger.Log("time is not within notification time");
                 return false;
             }
+        }
+        private static bool ShowNotificationInGeneral()
+        {
+            Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
+            return ConfigFiles.GetUserValueBool("NoNotification");
         }
         #endregion
     }
