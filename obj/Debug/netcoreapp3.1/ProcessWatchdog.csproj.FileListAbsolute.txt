@@ -1,0 +1,10 @@
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\ProcessWatchdog.csproj.AssemblyReference.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\ProcessWatchdog.csproj.ResolveComReference.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\Settings.baml
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\Notification.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\Settings.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\ProcessWatchdog_MarkupCompile.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\ProcessWatchdog_MarkupCompile.lref

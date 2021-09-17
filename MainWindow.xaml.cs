@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using System.Windows.Input;
@@ -33,7 +34,8 @@ namespace PBWatchdog
         {
             Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
             LoadWindowPosition();
-            ConfigFiles.GetUserConfig();
+            ConfigFiles.ReadAppConfig();
+            ConfigFiles.UserConfig();
             IsPBRunning(sender, e);
         }
         #region MainFunction
@@ -47,7 +49,7 @@ namespace PBWatchdog
             if (pbio)
             {
                 btn_PB.Background = Brushes.Green;
-                btn_PB.Content = "PBIO";
+                btn_PB.Content = ConfigFiles.GetWindowTitle();
                 tb.Icon = Properties.Resources.pbioicon;
                 remindTimer.Stop();
                 remind = false;
@@ -58,7 +60,7 @@ namespace PBWatchdog
             else
             {
                 btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
-                btn_PB.Content = "PBIZ";
+                btn_PB.Content = ConfigFiles.GetWindowTitle();
                 Logger.Log("PBIZ");
                 tb.Icon = Properties.Resources.pbizicon;
                 remind = true;
@@ -81,6 +83,22 @@ namespace PBWatchdog
                 Logger.Log("application was shut down");
                 Application.Current.Shutdown();
             }
+        }
+        private void btn_PB_Click(object sender, RoutedEventArgs e)
+        {
+            Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
+            try
+            {
+                var p = new Process();
+                p.StartInfo.FileName = ConfigFiles.GetProcessPath();
+                p.StartInfo.Arguments = ConfigFiles.GetProcessArgument();
+                p.Start();
+            }
+            catch (Exception ex)
+            {
+                Logger.Log(ex);
+            }
+
         }
         #endregion
         #endregion
@@ -182,7 +200,8 @@ namespace PBWatchdog
             refreshTimer.Interval = new TimeSpan(0, 0, 3);
 #endif
 #if RELEASE
-            refreshTimer.Interval = new TimeSpan(0, 0, 30);
+            
+            refreshTimer.Interval = new TimeSpan(0, 0, ConfigFiles.GetTimer());
 #endif
             refreshTimer.Start();
             Logger.Log("refresh timer started");

@@ -6,7 +6,7 @@
         xmlns:tb="http://www.hardcodet.net/taskbar"
         xmlns:local="clr-namespace:PBWatchdog"
         mc:Ignorable="d"
-        Title="PB Watchdog"
+        Title="P-Watchdog"
         Height="112"
         Width="100"
         ResizeMode="NoResize"
@@ -36,7 +36,7 @@
                 MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" 
                 FontSize="11" 
                 Foreground="Black"
-                Text="PBWatchdog"
+                Text="P-Watchdog"
                 Margin="5, 2, 0, 0"
             />
                 <Button 
@@ -64,14 +64,14 @@
                 </Grid.ColumnDefinitions>
                 <Button Style="{DynamicResource MyDesign}" 
                     x:Name="btn_PB"
-                    Content="PBIZ"
-                    FontSize="20"
+                    Content="Process"
+                    FontSize="15"
                     Foreground="White"
                     Width="100"
                     Height="90"
                     BorderThickness="0"
                     HorizontalAlignment="Center"
-                    VerticalAlignment="Bottom"
+                    VerticalAlignment="Bottom" Click="btn_PB_Click"
                 />
                 <TextBlock 
                     x:Name="txbUserName"

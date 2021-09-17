@@ -5,29 +5,12 @@ namespace PBWatchdog
 {
     public class ConfigFiles
     {
-        private static string windowTitle, processName; //name of WindowTitle and Process you want to check
-        private static readonly string mainFileName = "app.config"; 
-        private static readonly int userConfigKeyCount = 8; //how many keys are in the UserConfig to check if everything is there 
-        
-        public static string GetWindowTitle()
-        {
-            try
-            {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap()
-                {
-                    ExeConfigFilename = mainFileName
-                };
-                Configuration config = ConfigurationManager.OpenMappedExeConfiguration(configMap, ConfigurationUserLevel.None);
-                windowTitle = config.AppSettings.Settings["WindowTitle"].Value; //Gets Config Value
-            }
-            catch (Exception ex)
-            {
-                Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
-                Logger.Log(ex);
-            }
-            return windowTitle;
-        }
-        public static string GetProcessName()
+        private static string windowTitle, processName, processPath, processArgument; //name of WindowTitle and Process you want to check
+        private static readonly string mainFileName = "app.config";
+        private static readonly int userConfigKeyCount = 9; //how many keys are in the UserConfig to check if everything is there
+        private static int time = 30, logLevel = 0;
+
+        public static void ReadAppConfig()
         {
             try
             {
@@ -37,13 +20,42 @@ namespace PBWatchdog
                 };
                 Configuration config = ConfigurationManager.OpenMappedExeConfiguration(configMap, ConfigurationUserLevel.None);
                 processName = config.AppSettings.Settings["ProcessName"].Value; //Gets Config Value
+                windowTitle = config.AppSettings.Settings["WindowTitle"].Value;
+                time = Convert.ToInt32(config.AppSettings.Settings["Timer"].Value);
+                logLevel = Convert.ToInt32(config.AppSettings.Settings["LogLevel"].Value);
+                processPath = config.AppSettings.Settings["ProcessPath"].Value;
+                processArgument = config.AppSettings.Settings["ProcessArgument"].Value;
+
             }
             catch (Exception ex)
             {
                 Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
                 Logger.Log(ex);
             }
+        }
+        public static string GetWindowTitle()
+        {
+            return windowTitle;
+        }
+        public static string GetProcessName()
+        {
             return processName;
+        }
+        public static int GetTimer()
+        {
+            return time;
+        }
+        public static int GetLogLevel()
+        {
+            return logLevel;
+        }
+        public static string GetProcessPath()
+        {
+            return processPath;
+        }
+        public static string GetProcessArgument()
+        {
+            return processArgument;
         }
         public static bool GetKill()
         {
@@ -71,26 +83,7 @@ namespace PBWatchdog
             }
             return kill;
         }
-        public static int GetLogLevel()
-        {
-            int logLevel = 0;
-            try
-            {
-                ExeConfigurationFileMap configMap = new ExeConfigurationFileMap()
-                {
-                    ExeConfigFilename = mainFileName
-                };
-                Configuration config = ConfigurationManager.OpenMappedExeConfiguration(configMap, ConfigurationUserLevel.None);
-                logLevel = Convert.ToInt32(config.AppSettings.Settings["LogLevel"].Value);
-            }
-            catch (Exception ex)
-            {
-                Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
-                Logger.Log(ex);
-            }
-            return logLevel;
-        }
-        public static void GetUserConfig()
+        public static void UserConfig()
         {
             try
             {

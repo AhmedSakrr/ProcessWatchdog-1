@@ -7,7 +7,7 @@
         Title="Einstellungen"
         ResizeMode="NoResize"
         Height="190"
-        Width="480"
+        Width="580"
         WindowStyle="None"
         ShowInTaskbar="True"
         Visibility="Visible"
@@ -93,7 +93,7 @@
                 <CheckBox 
                 x:Name="cBoxAutostart"
                 Content="Autostart"
-                ToolTip="Schreibt den PBWatchdog in den Autostart"
+                ToolTip="Schreibt den P-Watchdog in den Autostart"
                 Foreground="White"
                 Margin="5, 0"
                 Grid.Column="0"
@@ -109,7 +109,7 @@
                 <CheckBox 
                 x:Name="cBoxShowNameInMonitor"
                 Content="Name im Monitor anzeigen"
-                ToolTip="Der Benutzername wird im Monitor angezeigt wenn die Postbox geöffnet ist"
+                ToolTip="Der Benutzername wird im Monitor angezeigt wenn der Prozess geöffnet ist"
                 Foreground="White"
                 Margin="5, 0"
                 Grid.Column="2"
@@ -151,6 +151,7 @@
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock 
                     Text="Benachrichtigungs Zeiten"
@@ -185,13 +186,21 @@
                     Grid.Column="4"
                 />
                 <CheckBox 
-                x:Name="cBoxWeekendNotification"
-                Content="Wochenende"
-                ToolTip="Benachrichtigungen werden auch am Wochenende angezeigt"
-                Foreground="White"
-                Margin="7 0 0 0"
-                Grid.Column="5"
-            />
+                    x:Name="cBoxWeekendNotification"
+                    Content="Wochenende"
+                    ToolTip="Benachrichtigungen werden auch am Wochenende angezeigt"
+                    Foreground="White"
+                    Margin="7 0 0 0"
+                    Grid.Column="5"
+                />
+                <CheckBox 
+                    x:Name="cBoxDeactivateNotification"
+                    Content="Benachrichtigungen deaktivieren"
+                    ToolTip="Benachrichtigungen werden komplett deaktiviert"
+                    Foreground="White"
+                    Margin="7 0 0 0"
+                    Grid.Column="6"
+                />
             </Grid>
             <!--Speichern Button-->
             <Grid>
