@@ -49,6 +49,7 @@
                 Height="18px" 
             />
             <TextBlock 
+                x:Name="txbTitle"
                 Grid.Column="1"
                 Grid.Row="0"
                 FontSize="15" 
@@ -72,6 +73,7 @@
                 BorderThickness="0"
             />
             <TextBlock 
+                x:Name="txbMessage"
                 Grid.Column="1"
                 Grid.Row="1"
                 Text="Bitte übernehmen."

@@ -5,7 +5,7 @@ namespace PBWatchdog
 {
     public class ConfigFiles
     {
-        private static string windowTitle, processName, processPath, processArgument; 
+        private static string windowTitle, processName, processPath, processArgument, notificationMessage, notificationTitle; 
         private static readonly string mainFileName = "app.config";
         private static bool invertColors;
         private static readonly int userConfigKeyCount = 9; //how many keys are in the UserConfig to check if everything is there
@@ -27,6 +27,8 @@ namespace PBWatchdog
                 processPath = config.AppSettings.Settings["ProcessPath"].Value;
                 processArgument = config.AppSettings.Settings["ProcessArgument"].Value;
                 invertColors = Convert.ToBoolean(config.AppSettings.Settings["InvertColors"].Value);
+                notificationMessage = config.AppSettings.Settings["NotificationMessage"].Value;
+                notificationTitle = config.AppSettings.Settings["NotificationTitle"].Value;
             }
             catch (Exception ex)
             {
@@ -61,6 +63,14 @@ namespace PBWatchdog
         public static bool GetInvertColors()
         {
             return invertColors;
+        }
+        public static string GetNotificationTitle()
+        {
+            return notificationTitle;
+        }
+        public static string GetNotificationMessage()
+        {
+            return notificationMessage;
         }
         public static bool GetKill()
         {

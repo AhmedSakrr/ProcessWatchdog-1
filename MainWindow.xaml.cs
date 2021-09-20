@@ -243,7 +243,7 @@ namespace PBWatchdog
             {
                 if (ShowNotificationAtThisTime() && !ShowNotificationInGeneral())
                 {
-                    Notification notification = new Notification();
+                    Notification notification = new Notification(ConfigFiles.GetNotificationTitle(), ConfigFiles.GetNotificationMessage());
                     notification.Show();
                     Logger.Log("show notification");
                 }

@@ -10,11 +10,14 @@ namespace PBWatchdog
     /// </summary>
     public partial class Notification : Window
     {
+        private string title, message;
         private DispatcherTimer dispatcherTimer;
-        public Notification()
+        public Notification(string title, string message)
         {
             Logger.Log("CLASS", this.ToString());
             InitializeComponent();
+            this.title = title;
+            this.message = message;
             this.Loaded += new RoutedEventHandler(Window_Loaded); //Calls Window_Loaded Method after Main Window is loaded
             OpenAnimation();
             Timer();
@@ -23,6 +26,8 @@ namespace PBWatchdog
         {
             try
             {
+                txbTitle.Text = title;
+                txbMessage.Text = message;
                 //to show notification in bottom right
                 var desktopWorkingArea = SystemParameters.WorkArea; 
                 this.Left = desktopWorkingArea.Right - this.Width; 
