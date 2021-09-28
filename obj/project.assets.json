@@ -183,7 +183,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\marco.maschauer\\Documents\\Visual Studio 2019\\Projects\\ProcessWatchdog\\PBWatchdog.csproj",
-      "projectName": "PBWatchdog",
+      "projectName": "ProcessWatchdog",
       "projectPath": "C:\\Users\\marco.maschauer\\Documents\\Visual Studio 2019\\Projects\\ProcessWatchdog\\PBWatchdog.csproj",
       "packagesPath": "C:\\Users\\marco.maschauer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marco.maschauer\\Documents\\Visual Studio 2019\\Projects\\ProcessWatchdog\\obj\\",

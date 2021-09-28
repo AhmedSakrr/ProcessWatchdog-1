@@ -113,11 +113,11 @@ namespace PBWatchdog
                 }
                 if (userconfig.AppSettings.Settings["Autostart"].Value == "true")
                 {
-                    FileHandler.CreateShortcut("PBWatchdog", Environment.CurrentDirectory + @"\PBWatchdog.exe");
+                    FileHandler.CreateShortcut("ProcessWatchdog", Environment.CurrentDirectory + @"\ProcessWatchdog.exe");
                 }
                 else
                 {
-                    FileHandler.DeleteShortcut("PBWatchdog.lnk");
+                    FileHandler.DeleteShortcut("ProcessWatchdog.lnk");
                 }
             }
             catch (Exception ex)

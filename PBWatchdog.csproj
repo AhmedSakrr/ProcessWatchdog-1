@@ -10,6 +10,7 @@
     <Description />
     <Product>Postbox Watchdog</Product>
     <Authors>Marco Maschauer</Authors>
+    <AssemblyName>ProcessWatchdog</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

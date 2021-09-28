@@ -93,7 +93,7 @@ namespace PBWatchdog {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PBWatchdog;component/notification.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProcessWatchdog;component/notification.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Notification.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

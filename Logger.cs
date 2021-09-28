@@ -7,8 +7,8 @@ namespace PBWatchdog
     public class Logger
     {
         private static readonly string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-        private static readonly string filePath = $"{userProfile}/PBWatchdog/Logs/log.txt";
-        private static readonly string backupFilePath = $"{userProfile}/PBWatchdog/Logs/Backup/backupLog.txt";
+        private static readonly string filePath = $"{userProfile}/ProcessWatchdog/Logs/log.txt";
+        private static readonly string backupFilePath = $"{userProfile}/ProcessWatchdog/Logs/Backup/backupLog.txt";
         private static readonly int logLevel = ConfigFiles.GetLogLevel();
 
         public static void Log(string message)

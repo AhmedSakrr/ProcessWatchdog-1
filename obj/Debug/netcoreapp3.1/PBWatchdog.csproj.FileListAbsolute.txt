@@ -148,13 +148,6 @@ C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktuelle
 C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.pdb
 C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache
 C:\Users\marco\Documents\Visual Studio 2019\Projects\PBWatchdog\Projekt\Aktueller Stand\PBWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.csprojAssemblyReference.cache
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.exe
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.dll.config
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.deps.json
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.runtimeconfig.json
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.runtimeconfig.dev.json
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.dll
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\PBWatchdog.pdb
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\NotifyIconWpf.dll
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
@@ -164,20 +157,15 @@ C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\o
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\Notification.g.cs
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\Settings.g.cs
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\App.g.cs
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog_MarkupCompile.cache
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog_MarkupCompile.lref
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\App.baml
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\Notification.baml
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.g.resources
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.Properties.Resources.resources
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.csproj.GenerateResource.cache
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.AssemblyInfoInputs.cache
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.AssemblyInfo.cs
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.csproj.CoreCompileInputs.cache
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.csproj.CopyComplete
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.dll
-C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.pdb
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.csproj.AssemblyReference.cache
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\PBWatchdog.GeneratedMSBuildEditorConfig.editorconfig
@@ -247,3 +235,15 @@ C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\PBWatchdog.dll
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\PBWatchdog.pdb
 C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog2.0\obj\Debug\netcoreapp3.1\PBWatchdog.genruntimeconfig.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.exe
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.dll.config
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.deps.json
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.runtimeconfig.json
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.runtimeconfig.dev.json
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\bin\Debug\netcoreapp3.1\ProcessWatchdog.pdb
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\ProcessWatchdog_MarkupCompile.cache
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\ProcessWatchdog_MarkupCompile.lref
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\ProcessWatchdog.g.resources
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\ProcessWatchdog.dll
+C:\Users\marco.maschauer\Documents\Visual Studio 2019\Projects\ProcessWatchdog\obj\Debug\netcoreapp3.1\ProcessWatchdog.pdb

@@ -7,11 +7,11 @@ namespace PBWatchdog
     public class FileHandler
     {
         private static readonly string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-        private static readonly string dir = $"{userProfile}/PBWatchdog/";
-        private static readonly string logdir = $"{userProfile}/PBWatchdog/Logs/";
-        private static readonly string backuplogdir = $"{userProfile}/PBWatchdog/Logs/Backup/";
-        public static readonly string userconfigfile = $"{userProfile}/PBWatchdog/Config/user.config";
-        private static readonly string userconfigdir = $"{userProfile}/PBWatchdog/Config/";
+        private static readonly string dir = $"{userProfile}/ProcessWatchdog/";
+        private static readonly string logdir = $"{userProfile}/ProcessWatchdog/Logs/";
+        private static readonly string backuplogdir = $"{userProfile}/ProcessWatchdog/Logs/Backup/";
+        public static readonly string userconfigfile = $"{userProfile}/ProcessWatchdog/Config/user.config";
+        private static readonly string userconfigdir = $"{userProfile}/ProcessWatchdog/Config/";
         private static readonly string autostartpath = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
 
         public static void CreateDir()
@@ -23,6 +23,11 @@ namespace PBWatchdog
                 Directory.CreateDirectory(backuplogdir);
                 Directory.CreateDirectory(userconfigdir);
                 Logger.Log("directorys created");
+                if (Directory.Exists($"{userProfile}/PBWatchdog/"))
+                {
+                    Directory.Move($"{userProfile}/PBWatchdog/", dir);
+                    Directory.Delete($"{userProfile}/PBWatchdog/");
+                }
             }
             catch (Exception ex)
             {
