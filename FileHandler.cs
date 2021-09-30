@@ -12,17 +12,24 @@ namespace PBWatchdog
         private static readonly string backuplogdir = $"{userProfile}/ProcessWatchdog/Logs/Backup/";
         public static readonly string userconfigfile = $"{userProfile}/ProcessWatchdog/Config/user.config";
         private static readonly string userconfigdir = $"{userProfile}/ProcessWatchdog/Config/";
-        private static readonly string autostartpath = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
+        private static readonly string autostartpath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\";
 
         public static void CreateDir()
         {
             try
             {
-                Directory.CreateDirectory(dir);
-                Directory.CreateDirectory(logdir);
-                Directory.CreateDirectory(backuplogdir);
-                Directory.CreateDirectory(userconfigdir);
-                Logger.Log("directorys created");
+                if (!Directory.Exists(dir))
+                {
+                    Directory.CreateDirectory(dir);
+                    Directory.CreateDirectory(logdir);
+                    Directory.CreateDirectory(backuplogdir);
+                    Directory.CreateDirectory(userconfigdir);
+                    Logger.Log("directorys created");
+                }
+                else
+                {
+                    Logger.Log("directorys already exists");
+                }
                 if (Directory.Exists($"{userProfile}/PBWatchdog/"))
                 {
                     Directory.Move($"{userProfile}/PBWatchdog/", dir);

@@ -43,12 +43,12 @@ namespace PBWatchdog
             if (cBoxAutostart.IsChecked ?? true)
             {
                 ConfigFiles.SetUserValue("Autostart", "true");
-                FileHandler.CreateShortcut("PBWatchdog", Environment.CurrentDirectory + @"\PBWatchdog.exe");
+                FileHandler.CreateShortcut("ProcessWatchdog", Environment.CurrentDirectory + @"\ProcessWatchdog.exe");
             }
             else
             {
                 ConfigFiles.SetUserValue("Autostart", "false");
-                FileHandler.DeleteShortcut("PBWatchdog.lnk");
+                FileHandler.DeleteShortcut("ProcessWatchdog.lnk");
             }
             //Show monitor
             if (cBoxMonitor.IsChecked ?? true)
@@ -179,7 +179,7 @@ namespace PBWatchdog
         }
         private static void ShowInfoBox()
         {
-            MessageBox.Show("Damit die Änderungen wirksam werden, muss der PBWatchdog einmal neu gestartet werden.", "Neustart erforderlich!", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Damit die Änderungen wirksam werden, muss der ProcessWatchdog einmal neu gestartet werden.", "Neustart erforderlich!", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }

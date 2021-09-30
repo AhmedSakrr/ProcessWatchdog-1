@@ -15,7 +15,7 @@ namespace PBWatchdog
             {
                 bool name = Process.GetProcesses().ToList().Where(x => x.ProcessName.Contains(processname) && x.SessionId == Process.GetCurrentProcess().SessionId).Any();
                 bool window = Process.GetProcesses().ToList().Where(x => x.MainWindowTitle.Contains(windowtitle) && x.SessionId == Process.GetCurrentProcess().SessionId).Any();
-                GetAllProcesses(); //Writes all Processes to a Textfile
+                //GetAllProcesses(); //Writes all Processes to a Textfile
                 if (window && name)
                 {
                     Logger.Log("pbox is running local");
@@ -36,8 +36,8 @@ namespace PBWatchdog
         }
         private static void GetAllProcesses()
         {
-            string processlistpath = $"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}/PBWatchdog/Logs/processlist.txt";
-            string processlistbackuppath = $"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}/PBWatchdog/Logs/Backup/processlist.txt";
+            string processlistpath = $"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}/ProcessWatchdog/Logs/processlist.txt";
+            string processlistbackuppath = $"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}/ProcessWatchdog/Logs/Backup/processlist.txt";
             if (ConfigFiles.GetLogLevel() == 0)
             {
                 try
