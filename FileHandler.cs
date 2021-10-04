@@ -18,6 +18,11 @@ namespace PBWatchdog
         {
             try
             {
+                if (Directory.Exists($"{userProfile}/PBWatchdog/"))
+                {
+                    Directory.Move($"{userProfile}/PBWatchdog/", dir);
+                    Directory.Delete($"{userProfile}/PBWatchdog/");
+                }
                 if (!Directory.Exists(dir))
                 {
                     Directory.CreateDirectory(dir);
@@ -29,11 +34,6 @@ namespace PBWatchdog
                 else
                 {
                     Logger.Log("directorys already exists");
-                }
-                if (Directory.Exists($"{userProfile}/PBWatchdog/"))
-                {
-                    Directory.Move($"{userProfile}/PBWatchdog/", dir);
-                    Directory.Delete($"{userProfile}/PBWatchdog/");
                 }
             }
             catch (Exception ex)
