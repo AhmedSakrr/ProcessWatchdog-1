@@ -50,15 +50,15 @@ namespace PBWatchdog
             {
                 if (ConfigFiles.GetInvertColors())
                 {
-                    btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
+                    Btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
                     tb.Icon = Properties.Resources.pbizicon;
                 }
                 else
                 {
-                    btn_PB.Background = Brushes.Green;
+                    Btn_PB.Background = Brushes.Green;
                     tb.Icon = Properties.Resources.pbioicon;
                 }
-                btn_PB.Content = ConfigFiles.GetWindowTitle();
+                Btn_PB.Content = ConfigFiles.GetWindowTitle();
                 remindTimer.Stop();
                 remind = false;
                 notify = true;
@@ -69,15 +69,15 @@ namespace PBWatchdog
             {
                 if (ConfigFiles.GetInvertColors())
                 {
-                    btn_PB.Background = Brushes.Green;
+                    Btn_PB.Background = Brushes.Green;
                     tb.Icon = Properties.Resources.pbioicon;
                 }
                 else
                 {
-                    btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
+                    Btn_PB.Background = new SolidColorBrush(Color.FromRgb(198, 40, 40));
                     tb.Icon = Properties.Resources.pbizicon;
                 }
-                btn_PB.Content = ConfigFiles.GetWindowTitle();
+                Btn_PB.Content = ConfigFiles.GetWindowTitle();
                 Logger.Log("PBIZ");
                 remind = true;
                 if (notify)
@@ -100,7 +100,7 @@ namespace PBWatchdog
                 Application.Current.Shutdown();
             }
         }
-        private void btn_PB_Click(object sender, RoutedEventArgs e)
+        private void Btn_PB_Click(object sender, RoutedEventArgs e)
         {
             Logger.Log("METHOD", System.Reflection.MethodBase.GetCurrentMethod().Name);
             try
@@ -188,6 +188,13 @@ namespace PBWatchdog
         {
             FileHandler.ExportLog();
         }
+        private void TrayResetMain_Click(object sender, RoutedEventArgs e)
+        {
+            ConfigFiles.SetUserValue("TopPosition", "0");
+            ConfigFiles.SetUserValue("LeftPosition", "0");
+            this.Top = Convert.ToDouble("0");
+            this.Left = Convert.ToDouble("0");
+        }
         #endregion
 
         #region Timer
@@ -243,7 +250,7 @@ namespace PBWatchdog
             {
                 if (ShowNotificationAtThisTime() && !ShowNotificationInGeneral())
                 {
-                    Notification notification = new Notification(ConfigFiles.GetNotificationTitle(), ConfigFiles.GetNotificationMessage());
+                    Notification notification = new(ConfigFiles.GetNotificationTitle(), ConfigFiles.GetNotificationMessage());
                     notification.Show();
                     Logger.Log("show notification");
                 }
@@ -267,8 +274,8 @@ namespace PBWatchdog
             string[] startTime = ConfigFiles.GetUserValue("NotificationStartTime").Split(":");
             string[] stopTime = ConfigFiles.GetUserValue("NotificationStopTime").Split(":");
             TimeSpan currentTime = DateTime.Now.TimeOfDay;
-            TimeSpan start = new TimeSpan(Convert.ToInt32(startTime[0]), Convert.ToInt32(startTime[1]), 0);
-            TimeSpan end = new TimeSpan(Convert.ToInt32(stopTime[0]), Convert.ToInt32(stopTime[1]), 0);
+            TimeSpan start = new(Convert.ToInt32(startTime[0]), Convert.ToInt32(startTime[1]), 0);
+            TimeSpan end = new(Convert.ToInt32(stopTime[0]), Convert.ToInt32(stopTime[1]), 0);
             if ((currentTime > start) && (currentTime < end))
             {
                 Logger.Log("time is within notification time");

@@ -1,0 +1,20 @@
+﻿ProcessWatchdog
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\marco.maschauer\Documents\Visual Studio 2022\Projects\ProcessWatchdog\obj\Debug\net6.0-windows\
+PBWatchdog
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\marco.maschauer\Documents\Visual Studio 2022\Projects\ProcessWatchdog\App.xaml
+3-973860733
+
+13-2034678460
+220-1605319562
+MainWindow.xaml;Notification.xaml;Settings.xaml;
+
+True
+

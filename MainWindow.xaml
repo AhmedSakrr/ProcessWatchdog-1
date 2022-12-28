@@ -65,7 +65,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Button Style="{DynamicResource MyDesign}" 
-                    x:Name="btn_PB"
+                    x:Name="Btn_PB"
                     Content="Process"
                     FontSize="15"
                     Foreground="White"
@@ -73,7 +73,7 @@
                     Height="90"
                     BorderThickness="0"
                     HorizontalAlignment="Center"
-                    VerticalAlignment="Bottom" Click="btn_PB_Click"
+                    VerticalAlignment="Bottom" Click="Btn_PB_Click"
                 />
                     <TextBlock 
                     x:Name="txbUserName"
@@ -90,6 +90,7 @@
                     <tb:TaskbarIcon.ContextMenu>
                         <ContextMenu>
                             <MenuItem x:Name="TrayShowMain" Header="Monitor anzeigen" Click="ShowMain_Click"/>
+                            <MenuItem x:Name="TrayResetMain" Header="Monitor zurücksetzen" Click="TrayResetMain_Click"/>
                             <MenuItem x:Name="TrayExportLog" Header="Log exportieren" Click="TrayExportLog_Click"/>
                             <MenuItem x:Name="TraySettings" Header="Einstellungen" Click="Settings_Click" />
                             <MenuItem x:Name="TrayExit" Header="Beenden" Click="BtnExit_Click" />
